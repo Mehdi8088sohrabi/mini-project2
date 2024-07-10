@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    height: 100vh;
+    background-color: black; 
+}
+.hed {
+    width: 600px; 
+    height: 60px;
+    display: flex;
+    align-items: center; 
+    padding-left: 30px;
+    background-color: rgb(34, 32, 32);
+    box-sizing: border-box;
+    position: relative;
+    transition: background-color 0.9s ease; 
+    color: white;
+}
+.hed i {
+    position: absolute; 
+    right: 10px; 
+}
+.hed:hover{
+    background-color: rgb(77, 73, 73);
+}
+p{
+    width: 600px;
+    height: auto;
+    background-color: rgb(14, 20, 1);
+    padding: 0px 30px;
+    box-sizing: border-box;
+    text-align: justify;
+    display: none;
+    color: white;
+}
